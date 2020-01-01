@@ -1,6 +1,6 @@
 
 const {
-  UNIFAUN_BASE_PATH = 'https://api.unifaun.com/rs-extapi/v1/',
+  UNIFAUN_BASE_PATH = 'https://api.unifaun.com/rs-extapi/v1',
   UNIFAUN_USERNAME = '',
   UNIFAUN_PASSWORD = '',
 } = process.env
