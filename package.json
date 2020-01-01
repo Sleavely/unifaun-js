@@ -2,18 +2,19 @@
   "name": "unifaun",
   "version": "0.2.0-0",
   "description": "API client for Unifaun APIConnect",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "Joakim Hedlund <contact@joakimhedlund.com>",
+  "homepage": "https://github.com/Sleavely/unifaun-js",
+  "repository": "github:Sleavely/unifaun-js",
+  "license": "MIT",
   "keywords": [
     "unifaun",
     "apiconnect",
     "rest api"
   ],
-  "author": "Joakim Hedlund <contact@joakimhedlund.com>",
-  "license": "MIT",
-  "repository": "github:Sleavely/unifaun-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
@@ -21,5 +22,8 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "got": "^10.2.0"
   }
 }
