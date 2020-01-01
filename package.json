@@ -1,6 +1,6 @@
 {
   "name": "unifaun",
-  "version": "0.2.0-0",
+  "version": "0.2.0-1",
   "description": "API client for Unifaun APIConnect",
   "author": "Joakim Hedlund <contact@joakimhedlund.com>",
   "homepage": "https://github.com/Sleavely/unifaun-js",
