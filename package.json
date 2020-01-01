@@ -1,0 +1,17 @@
+{
+  "name": "unifaun",
+  "version": "0.0.0",
+  "description": "API client for Unifaun APIConnect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "unifaun",
+    "apiconnect",
+    "rest api"
+  ],
+  "author": "Joakim Hedlund <contact@joakimhedlund.com>",
+  "license": "MIT",
+  "repository": "github:Sleavely/unifaun-js"
+}
