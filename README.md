@@ -10,6 +10,27 @@ API client for the [Unifaun APIConnect REST APIs](https://www.unifaunonline.se/r
 npm i unifaun
 ```
 
+## Configuration
+
+At the moment UnifaunJS relies on environment variables for configuration. This will change in an upcoming release.
+
+- `UNIFAUN_USERNAME`
+- `UNIFAUN_PASSWORD`
+- `UNIFAUN_BASE_PATH` (Default: `https://api.unifaun.com/rs-extapi/v1`)
+
 ## Usage
 
-WIP!
+UnifaunJS uses [got](https://github.com/sindresorhus/got) under the hood, so you can use it the same way:
+
+```js
+const { client } = require('unifaun')
+
+;(async () => {
+	try {
+		const response = await client('/stored-shipments')
+		console.log(response.body)
+	} catch (err) {
+		console.error(err)
+	}
+})()
+```
