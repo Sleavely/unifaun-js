@@ -1,6 +1,6 @@
 {
   "name": "unifaun",
-  "version": "0.0.0",
+  "version": "0.1.0-0",
   "description": "API client for Unifaun APIConnect",
   "main": "index.js",
   "scripts": {
