@@ -10,6 +10,8 @@ const got = require('got')
 const client = got.extend({
   prefixUrl: UNIFAUN_BASE_PATH,
   responseType: 'json',
+  username: UNIFAUN_USERNAME,
+  password: UNIFAUN_PASSWORD,
 })
 
 module.exports = exports = client
